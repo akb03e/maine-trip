@@ -54,11 +54,25 @@
             <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
                 <div class="flex justify-between items-center border-b pb-2 mb-2">
                     <span class="text-xs font-bold text-sky-600"><i class="fa-solid fa-plane"></i> United Flights</span>
-                    <a href="https://www.united.com/en/us/fly/travel/flight-status.html" target="_blank" class="text-xs text-sky-600 underline">Check Status</a>
                 </div>
-                <div class="text-xs space-y-1">
-                    <p class="font-semibold text-slate-700">UA 6132: CLT ➔ IAD</p>
-                    <p class="font-semibold text-slate-700">UA 3709: IAD ➔ PWM <span class="text-emerald-600 font-normal">(Lands 2:38 PM)</span></p>
+                <p class="text-slate-400 text-[10px] -mt-1 mb-2">Confirmation: H9VVC5</p>
+                <div class="text-xs space-y-2">
+                    <div class="flex justify-between items-start gap-2">
+                        <div>
+                            <p class="font-semibold text-slate-700">UA 6132: CLT ➔ IAD</p>
+                            <p class="text-slate-600">10:25 AM – 11:55 AM</p>
+                            <p class="text-slate-400 text-[10px]">Gate posts ~24h before departure</p>
+                        </div>
+                        <a href="https://www.flightaware.com/live/flight/UAL6132" target="_blank" class="text-sky-600 underline text-[11px] whitespace-nowrap">Live Status</a>
+                    </div>
+                    <div class="flex justify-between items-start gap-2">
+                        <div>
+                            <p class="font-semibold text-slate-700">UA 3709: IAD ➔ PWM</p>
+                            <p class="text-slate-600">12:47 PM – <span class="text-emerald-600 font-semibold">2:38 PM</span></p>
+                            <p class="text-slate-400 text-[10px]">Gate posts ~24h before departure</p>
+                        </div>
+                        <a href="https://www.flightaware.com/live/flight/UAL3709" target="_blank" class="text-sky-600 underline text-[11px] whitespace-nowrap">Live Status</a>
+                    </div>
                     <p class="text-slate-500 mt-1"><i class="fa-solid fa-square-parking"></i> Parked @ The Parking Spot CLT</p>
                 </div>
             </div>
@@ -68,7 +82,8 @@
                     <i class="fa-solid fa-car text-emerald-700 mt-1"></i>
                     <div class="text-xs">
                         <p class="font-bold">Enterprise Rental Pick-up</p>
-                        <p class="text-slate-500">PWM Terminal Counter • Embassy Suites Check-in</p>
+                        <p class="text-slate-500">PWM Terminal Counter</p>
+                        <p class="text-slate-500">Standard Elite SUV • Confirmation: 398375085</p>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -85,6 +100,7 @@
                         <p class="font-bold">3:30–6:00 PM: Portland Head Light</p>
                         <p class="text-slate-500">Fort Williams Park, Cape Elizabeth</p>
                         <p class="text-slate-600 font-semibold mt-0.5">🍽️ Lunch: Bite Into Maine Food Truck</p>
+                        <a href="https://maps.google.com/?q=Bite+Into+Maine+Food+Truck+Cape+Elizabeth+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -92,7 +108,21 @@
                     <div class="text-xs">
                         <p class="font-bold">Dinner: The Highroller Lobster Co. or DiMillo's</p>
                         <p class="text-slate-500">Highroller (Exchange St - Walk-in) | DiMillo's Floating Deck</p>
+                        <p class="text-[11px] mt-0.5"><a href="https://maps.google.com/?q=Highroller+Lobster+Co+Portland+ME" target="_blank" class="text-emerald-700 underline">Highroller Map</a> · <a href="https://maps.google.com/?q=DiMillo%27s+Floating+Restaurant+Portland+ME" target="_blank" class="text-emerald-700 underline">DiMillo's Map</a></p>
                     </div>
+                </div>
+            </div>
+
+            <!-- Hotel Card -->
+            <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+                <div class="flex justify-between items-center border-b pb-2 mb-2">
+                    <span class="text-xs font-bold text-violet-700"><i class="fa-solid fa-bed"></i> Tonight's Hotel</span>
+                </div>
+                <div class="text-xs space-y-1">
+                    <p class="font-semibold text-slate-700">Embassy Suites by Hilton Portland</p>
+                    <p class="text-slate-500">Confirmation: 90058667</p>
+                    <p class="text-slate-500">Check-in Mon 8/31 • Check-out Tue 9/1</p>
+                    <a href="https://maps.google.com/?q=Embassy+Suites+by+Hilton+Portland+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                 </div>
             </div>
         </section>
@@ -118,6 +148,7 @@
                     <div class="text-xs">
                         <p class="font-bold">Lunch: Rosemont Market or Duckfat Fritthouse</p>
                         <p class="text-slate-500">Grab-and-go on the scenic 1.5 hr drive north on Rt 1</p>
+                        <p class="text-[11px] mt-0.5"><a href="https://maps.google.com/?q=Rosemont+Market+Portland+ME" target="_blank" class="text-emerald-700 underline">Rosemont Map</a> · <a href="https://maps.google.com/?q=Duckfat+Frites+Shack+Portland+ME" target="_blank" class="text-emerald-700 underline">Duckfat Map</a></p>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -125,13 +156,7 @@
                     <div class="text-xs">
                         <p class="font-bold">2:30–4:30 PM: Maiden Cliff Hike</p>
                         <p class="text-slate-500">Camden Hills State Park (1.8 miles round-trip, 800' views)</p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-3">
-                    <i class="fa-solid fa-hotel text-slate-600 mt-1"></i>
-                    <div class="text-xs">
-                        <p class="font-bold">Hampton Inn & Suites Rockland</p>
-                        <p class="text-slate-500">Check-in base for Midcoast</p>
+                        <a href="https://maps.google.com/?q=Maiden+Cliff+Trailhead+Camden+Hills+State+Park+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Directions</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -139,7 +164,22 @@
                     <div class="text-xs">
                         <p class="font-bold">5:30 PM Dinner: McLoons Lobster Shack</p>
                         <p class="text-slate-500">South Thomaston dockside eating (Closes early!)</p>
+                        <a href="https://maps.google.com/?q=McLoons+Lobster+Shack+South+Thomaston+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                     </div>
+                </div>
+            </div>
+
+            <!-- Hotel Card -->
+            <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+                <div class="flex justify-between items-center border-b pb-2 mb-2">
+                    <span class="text-xs font-bold text-violet-700"><i class="fa-solid fa-bed"></i> Tonight's Hotel</span>
+                </div>
+                <div class="text-xs space-y-1">
+                    <p class="font-semibold text-slate-700">Hampton Inn & Suites Rockland</p>
+                    <p class="text-slate-500">Confirmation: 90062059</p>
+                    <p class="text-slate-500">Check-in base for Midcoast</p>
+                    <p class="text-slate-500">Check-in Tue 9/1 • Check-out Wed 9/2</p>
+                    <a href="https://maps.google.com/?q=Hampton+Inn+and+Suites+Rockland+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                 </div>
             </div>
         </section>
@@ -147,7 +187,7 @@
         <!-- DAY 3: WED 9/2 -->
         <section id="day3" class="tab-content hidden space-y-3">
             <div class="bg-emerald-50 border-l-4 border-emerald-600 p-3 rounded-r-lg text-xs text-emerald-900 flex justify-between items-center">
-                <div><i class="fa-solid fa-train text-emerald-600 mr-1"></i> <strong>11:13 AM:</strong> Amtrak Freeport ➔ OOB</div>
+                <div><i class="fa-solid fa-train text-emerald-600 mr-1"></i> <strong>11:13 AM:</strong> Amtrak Train 684 Freeport ➔ OOB</div>
                 <span class="bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded font-bold text-[10px]">BOOKED</span>
             </div>
 
@@ -157,13 +197,16 @@
                     <div class="text-xs">
                         <p class="font-bold">Morning Coffee: Rock City Coffee</p>
                         <p class="text-slate-500">316 Main St, Rockland • Downtown roast house</p>
+                        <a href="https://maps.google.com/?q=Rock+City+Coffee+316+Main+St+Rockland+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
                     <i class="fa-solid fa-train-subway text-indigo-600 mt-1"></i>
                     <div class="text-xs">
-                        <p class="font-bold">11:13 AM – 12:03 PM: Amtrak Downeaster</p>
+                        <p class="font-bold">11:13 AM – 12:03 PM: Amtrak Downeaster Train 684</p>
                         <p class="text-slate-500">Freeport to OOB through Scarborough Marsh</p>
+                        <p class="text-slate-500">Business Class • 2 seats • Conf: AF6BFD</p>
+                        <a href="https://www.amtrak.com/track-your-train.html" target="_blank" class="text-emerald-700 text-[11px] underline">Track Train 684</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -171,12 +214,15 @@
                     <div class="text-xs">
                         <p class="font-bold">12:05–1:45 PM: Old Orchard Beach Pier</p>
                         <p class="text-slate-500">Pier Fries, Bill's Pizza, or Joseph's by the Sea</p>
+                        <p class="text-[11px] mt-0.5"><a href="https://maps.google.com/?q=Pier+Fries+Old+Orchard+Beach+ME" target="_blank" class="text-emerald-700 underline">Pier Fries Map</a> · <a href="https://maps.google.com/?q=Bill%27s+Pizza+Old+Orchard+Beach+ME" target="_blank" class="text-emerald-700 underline">Bill's Pizza Map</a> · <a href="https://maps.google.com/?q=Joseph%27s+by+the+Sea+Old+Orchard+Beach+ME" target="_blank" class="text-emerald-700 underline">Joseph's Map</a></p>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
                     <i class="fa-solid fa-train-subway text-indigo-600 mt-1"></i>
                     <div class="text-xs">
-                        <p class="font-bold">2:01–2:55 PM: Amtrak Return to Freeport</p>
+                        <p class="font-bold">2:01–2:55 PM: Amtrak Downeaster Train 683 Return to Freeport</p>
+                        <p class="text-slate-500">Business Class • 2 seats • Conf: AF6BFD</p>
+                        <a href="https://www.amtrak.com/track-your-train.html" target="_blank" class="text-emerald-700 text-[11px] underline">Track Train 683</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -184,6 +230,7 @@
                     <div class="text-xs">
                         <p class="font-bold">3:15–5:00 PM: Maine Wildlife Park</p>
                         <p class="text-slate-500">Gray, ME • Native moose, bears, lynx & eagles</p>
+                        <a href="https://maps.google.com/?q=Maine+Wildlife+Park+Gray+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Directions</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -191,14 +238,29 @@
                     <div class="text-xs">
                         <p class="font-bold">5:15–6:30 PM: West-Port Candlepin Bowling</p>
                         <p class="text-slate-500">Westbrook, ME • Classic New England bowling</p>
+                        <a href="https://maps.google.com/?q=West-Port+Candlepin+Bowling+Westbrook+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Directions</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
                     <i class="fa-solid fa-beer-mug-empty text-amber-600 mt-1"></i>
                     <div class="text-xs">
                         <p class="font-bold">Dinner: Maine Beer Co. or Brickyard Hollow</p>
-                        <p class="text-slate-500">Hilton Garden Inn Freeport Check-in + L.L. Bean Stroll</p>
+                        <p class="text-slate-500">L.L. Bean Stroll after check-in</p>
+                        <p class="text-[11px] mt-0.5"><a href="https://maps.google.com/?q=Maine+Beer+Company+Freeport+ME" target="_blank" class="text-emerald-700 underline">Maine Beer Co Map</a> · <a href="https://maps.google.com/?q=Brickyard+Hollow+Freeport+ME" target="_blank" class="text-emerald-700 underline">Brickyard Hollow Map</a></p>
                     </div>
+                </div>
+            </div>
+
+            <!-- Hotel Card -->
+            <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+                <div class="flex justify-between items-center border-b pb-2 mb-2">
+                    <span class="text-xs font-bold text-violet-700"><i class="fa-solid fa-bed"></i> Tonight's Hotel</span>
+                </div>
+                <div class="text-xs space-y-1">
+                    <p class="font-semibold text-slate-700">Hilton Garden Inn Freeport</p>
+                    <p class="text-slate-500">Confirmation: 3504052670</p>
+                    <p class="text-slate-500">Check-in Wed 9/2 • Check-out Thu 9/3</p>
+                    <a href="https://maps.google.com/?q=Hilton+Garden+Inn+Freeport+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                 </div>
             </div>
         </section>
@@ -216,6 +278,15 @@
                     <div class="text-xs">
                         <p class="font-bold">Coffee: The Met Coffee House</p>
                         <p class="text-slate-500">48 Main St, Freeport before 25-min drive to Portland</p>
+                        <a href="https://maps.google.com/?q=The+Met+Coffee+House+48+Main+St+Freeport+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-car text-emerald-700 mt-1"></i>
+                    <div class="text-xs">
+                        <p class="font-bold">Valet Rental Car at Canopy</p>
+                        <p class="text-slate-500">Drop car with hotel valet before the ferry — room check-in is later that afternoon</p>
+                        <a href="https://maps.google.com/?q=Canopy+by+Hilton+Portland+Waterfront+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Directions</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -224,13 +295,16 @@
                         <p class="font-bold">9:30 AM – 1:00 PM: Peaks Island Bike Loop</p>
                         <p class="text-slate-500">15-min ferry ➔ Brad's Bike Rental ➔ 4-mi loop past WWII bunkers</p>
                         <p class="text-slate-600 font-semibold mt-0.5">🍽️ Lunch: Inn on Peaks or Caddy Shack</p>
+                        <p class="text-[11px] mt-0.5"><a href="https://maps.google.com/?q=Inn+on+Peaks+Island+ME" target="_blank" class="text-emerald-700 underline">Inn on Peaks Map</a> · <a href="https://maps.google.com/?q=Caddy+Shack+Peaks+Island+ME" target="_blank" class="text-emerald-700 underline">Caddy Shack Map</a></p>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
                     <i class="fa-solid fa-store text-sky-600 mt-1"></i>
                     <div class="text-xs">
                         <p class="font-bold">1:30–4:00 PM: Old Port Stroll & Check-in</p>
-                        <p class="text-slate-500">Canopy by Hilton Portland Waterfront (Valet car)</p>
+                        <p class="text-slate-500">Room check-in at Canopy</p>
+                        <p class="text-slate-600 font-semibold mt-0.5">🍩 Stop: The Holy Donut</p>
+                        <a href="https://maps.google.com/?q=The+Holy+Donut+177+Commercial+St+Portland+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -238,6 +312,7 @@
                     <div class="text-xs">
                         <p class="font-bold">4:45–6:15 PM: Early Walk-in Dinner</p>
                         <p class="text-slate-500">Eventide Oyster Co., Luke's Lobster, J's Oyster, or Gilbert's</p>
+                        <p class="text-[11px] mt-0.5 leading-relaxed"><a href="https://maps.google.com/?q=Eventide+Oyster+Co+Portland+ME" target="_blank" class="text-emerald-700 underline">Eventide Map</a> · <a href="https://maps.google.com/?q=Luke%27s+Lobster+Portland+ME" target="_blank" class="text-emerald-700 underline">Luke's Map</a> · <a href="https://maps.google.com/?q=J%27s+Oyster+Portland+ME" target="_blank" class="text-emerald-700 underline">J's Oyster Map</a> · <a href="https://maps.google.com/?q=Gilbert%27s+Chowder+House+Portland+ME" target="_blank" class="text-emerald-700 underline">Gilbert's Map</a></p>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -245,7 +320,21 @@
                     <div class="text-xs">
                         <p class="font-bold">6:15 PM: Luna Rooftop Bar</p>
                         <p class="text-slate-500">Top floor of Canopy • Sunset view over Casco Bay</p>
+                        <a href="https://maps.google.com/?q=Luna+Rooftop+Bar+Canopy+by+Hilton+Portland+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                     </div>
+                </div>
+            </div>
+
+            <!-- Hotel Card -->
+            <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+                <div class="flex justify-between items-center border-b pb-2 mb-2">
+                    <span class="text-xs font-bold text-violet-700"><i class="fa-solid fa-bed"></i> Tonight's Hotel</span>
+                </div>
+                <div class="text-xs space-y-1">
+                    <p class="font-semibold text-slate-700">Canopy by Hilton Portland Waterfront</p>
+                    <p class="text-slate-500">Confirmation: 3508606367</p>
+                    <p class="text-slate-500">Check-in Thu 9/3 • Check-out Fri 9/4</p>
+                    <a href="https://maps.google.com/?q=Canopy+by+Hilton+Portland+Waterfront+ME" target="_blank" class="text-emerald-700 text-[11px] underline">Map</a>
                 </div>
             </div>
         </section>
@@ -257,9 +346,24 @@
                     <span class="text-xs font-bold text-sky-600"><i class="fa-solid fa-plane"></i> United Flights Home</span>
                     <a href="https://www.united.com" target="_blank" class="text-xs text-sky-600 underline">United App</a>
                 </div>
-                <div class="text-xs space-y-1">
-                    <p class="font-semibold text-slate-700">UA 3405: PWM ➔ EWR <span class="text-rose-600 font-normal">(Departs 10:55 AM)</span></p>
-                    <p class="font-semibold text-slate-700">UA 3547: EWR ➔ CLT</p>
+                <p class="text-slate-400 text-[10px] -mt-1 mb-2">Confirmation: H9VVC5</p>
+                <div class="text-xs space-y-2">
+                    <div class="flex justify-between items-start gap-2">
+                        <div>
+                            <p class="font-semibold text-slate-700">UA 3405: PWM ➔ EWR</p>
+                            <p class="text-slate-600"><span class="text-rose-600 font-semibold">10:45 AM</span> – 12:29 PM</p>
+                            <p class="text-slate-400 text-[10px]">Gate posts ~24h before departure</p>
+                        </div>
+                        <a href="https://www.flightaware.com/live/flight/UAL3405" target="_blank" class="text-sky-600 underline text-[11px] whitespace-nowrap">Live Status</a>
+                    </div>
+                    <div class="flex justify-between items-start gap-2">
+                        <div>
+                            <p class="font-semibold text-slate-700">UA 3547: EWR ➔ CLT</p>
+                            <p class="text-slate-600">1:13 PM – 3:18 PM</p>
+                            <p class="text-slate-400 text-[10px]">Gate posts ~24h before departure</p>
+                        </div>
+                        <a href="https://www.flightaware.com/live/flight/UAL3547" target="_blank" class="text-sky-600 underline text-[11px] whitespace-nowrap">Live Status</a>
+                    </div>
                 </div>
             </div>
 
@@ -269,13 +373,15 @@
                     <div class="text-xs">
                         <p class="font-bold">Morning Coffee & Pastries</p>
                         <p class="text-slate-500">Standard Baking Co. (across from Canopy) or Salt Yard Cafe</p>
+                        <p class="text-[11px] mt-0.5"><a href="https://maps.google.com/?q=Standard+Baking+Co+Portland+ME" target="_blank" class="text-emerald-700 underline">Standard Baking Map</a> · <a href="https://maps.google.com/?q=Salt+Yard+Cafe+Portland+ME" target="_blank" class="text-emerald-700 underline">Salt Yard Map</a></p>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
                     <i class="fa-solid fa-car text-emerald-700 mt-1"></i>
                     <div class="text-xs">
                         <p class="font-bold">Enterprise PWM Return</p>
-                        <p class="text-slate-500">Drop off car 1.5 hrs before UA 3405 flight</p>
+                        <p class="text-slate-500">Pick car up from Canopy valet, drop off car 1.5 hrs before 10:45 AM UA 3405 departure</p>
+                        <p class="text-slate-500">Standard Elite SUV • Confirmation: 398375085</p>
                     </div>
                 </div>
                 <div class="flex items-start gap-3">
@@ -300,29 +406,29 @@
         <section id="apps" class="pt-4 border-t border-slate-300">
             <h2 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Quick Launch Apps & Links</h2>
             <div class="grid grid-cols-2 gap-2 text-xs">
-                <a href="united://" target="_blank" onclick="window.location.href='https://www.united.com'" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
+                <a href="intent://#Intent;package=com.united.mobile.android;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;S.browser_fallback_url=https%3A%2F%2Fwww.united.com%2Fen%2Fus%2Ffly%2Ftravel%2Fflight-status.html;end" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
                     <i class="fa-solid fa-plane-departure text-sky-600 text-base"></i>
                     <div><p class="font-bold">United App</p><p class="text-[10px] text-slate-400">Flights & Passes</p></div>
                 </a>
-                <a href="amtrak://" target="_blank" onclick="window.location.href='https://www.amtrak.com'" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
+                <a href="intent://#Intent;package=com.amtrak.rider;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;S.browser_fallback_url=https%3A%2F%2Fwww.amtrak.com;end" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
                     <i class="fa-solid fa-train text-indigo-600 text-base"></i>
                     <div><p class="font-bold">Amtrak App</p><p class="text-[10px] text-slate-400">Downeaster Tickets</p></div>
                 </a>
-                <a href="enterprise://" target="_blank" onclick="window.location.href='https://www.enterprise.com'" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
+                <a href="intent://#Intent;package=com.ehi.enterprise.android;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;S.browser_fallback_url=https%3A%2F%2Fwww.enterprise.com;end" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
                     <i class="fa-solid fa-car text-emerald-600 text-base"></i>
                     <div><p class="font-bold">Enterprise App</p><p class="text-[10px] text-slate-400">PWM Car Rental</p></div>
                 </a>
-                <a href="https://www.petparadise.com" target="_blank" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
+                <a href="intent://#Intent;package=com.petparadise.app;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.petparadise.app;end" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
                     <i class="fa-solid fa-dog text-amber-600 text-base"></i>
                     <div><p class="font-bold">Pet Paradise</p><p class="text-[10px] text-slate-400">Huntersville</p></div>
                 </a>
-                <a href="https://www.theparkingspot.com" target="_blank" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
+                <a href="intent://#Intent;package=com.theparkingspot.tpscustomer;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.theparkingspot.tpscustomer;end" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
                     <i class="fa-solid fa-square-parking text-purple-600 text-base"></i>
                     <div><p class="font-bold">Parking Spot</p><p class="text-[10px] text-slate-400">CLT Airport</p></div>
                 </a>
-                <a href="https://portlandpaddle.net" target="_blank" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
-                    <i class="fa-solid fa-water text-cyan-600 text-base"></i>
-                    <div><p class="font-bold">Portland Paddle</p><p class="text-[10px] text-slate-400">Fort Gorges Kayak</p></div>
+                <a href="intent://#Intent;package=com.hilton.android.hhonors;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.hilton.android.hhonors;end" class="bg-white p-3 rounded-xl shadow-sm border flex items-center gap-2 hover:bg-slate-50">
+                    <i class="fa-solid fa-bed text-violet-700 text-base"></i>
+                    <div><p class="font-bold">Hilton Honors</p><p class="text-[10px] text-slate-400">Digital Key & Stays</p></div>
                 </a>
             </div>
         </section>
